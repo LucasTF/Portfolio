@@ -1,4 +1,5 @@
 import React from 'react';
+import TW from '../Utils/TW';
 
 import Navbar from '../Navbar';
 import Button from '../Utils/Button';
@@ -11,7 +12,9 @@ export default function Header() {
 			<div className='container'>
 				<Navbar />
 				<div className='content'>
-					<h1>Lucas Ferreira: Frontend Developer</h1>
+					<h1>
+						Lucas Ferreira <TW /> Developer
+					</h1>
 					<p className='description'>
 						Desenvolvedor especializado na criação de sites
 						responsivos e REST APIs.

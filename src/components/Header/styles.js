@@ -13,10 +13,5 @@ export const StyledHeader = styled.header`
 			font-size: 4rem;
 			line-height: 1.2;
 		}
-
-		p.description {
-			font-size: 1.3rem;
-			margin-bottom: 2rem;
-		}
 	}
 `;

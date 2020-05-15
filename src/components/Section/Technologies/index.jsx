@@ -19,8 +19,8 @@ export default function Technologies() {
 	return (
 		<Section
 			title='Tecnologias'
-			description='Tecnologias nas quais me especializo'
-			theme='dark'
+			description='Tecnologias em que possuo proficiência na utilização'
+			theme='light'
 		>
 			<StyledTechnologies>
 				<div>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledSpecializations = styled.section`
+export const StyledKnowledge = styled.section`
 	margin-top: 3rem;
 	display: grid;
 	grid-gap: 1.5rem;

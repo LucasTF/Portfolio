@@ -5,16 +5,16 @@ import { IoMdConstruct } from 'react-icons/io';
 
 import Section from '../';
 
-import { StyledSpecializations } from './styles';
+import { StyledKnowledge } from './styles';
 
-export default function Specializations() {
+export default function Knowledge() {
 	return (
 		<Section
 			title='Conhecimentos'
 			description='Meus conhecimentos na área de desenvolvimento'
 			theme='dark'
 		>
-			<StyledSpecializations>
+			<StyledKnowledge>
 				<div>
 					<MdComputer className='icon' />
 					<h2>Frontend</h2>
@@ -61,7 +61,7 @@ export default function Specializations() {
 						SOLID, TDD, dentre outros...
 					</p>
 				</div>
-			</StyledSpecializations>
+			</StyledKnowledge>
 		</Section>
 	);
 }

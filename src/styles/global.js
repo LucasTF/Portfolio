@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         --primary-color: #ffaf00;
         --light-color: #f4f4f4;
         --dark-color: #333;
+        --darker-color: #111;
         --bg-image: url(${bgImg});
         font-family: 'Dosis', sans-serif;
         font-size: 16px;

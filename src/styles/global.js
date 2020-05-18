@@ -22,6 +22,10 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
     a {
         text-decoration: none;
     }
@@ -43,6 +47,14 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0 1.5rem;
         margin: auto;
         overflow: hidden;
+    }
+
+    div.bottom-line {
+        height: 2px;
+        width: 5rem;
+        background: var(--primary-color);
+        display: block;
+        margin: 0 auto 1rem auto;
     }
 
     p.description {

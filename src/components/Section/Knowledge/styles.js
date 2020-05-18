@@ -8,8 +8,16 @@ export const StyledKnowledge = styled.section`
 
 	div {
 		.icon {
-			font-size: 2rem;
-			color: var(--primary-color);
+			font-size: 4rem;
+			color: var(--dark-color);
+			background: var(--primary-color);
+			padding: 16px;
+			border-radius: 50%;
+			transition: all 1s;
+
+			:hover {
+				font-size: 5rem;
+			}
 		}
 		p {
 			text-align: justify;
